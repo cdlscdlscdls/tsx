@@ -10,12 +10,16 @@
 - Docker
 
 ### 使い方
+```
 $ git clone https://github.com/cdlscdlscdls/tsx.git
+```
 
+```
 $ cd tsx
-
+```
+```
 $ docker-compose up --build web
-
+```
 => http://localhost:3000
 
 ### 参考記事
