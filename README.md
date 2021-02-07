@@ -10,16 +10,37 @@
 - Docker
 
 ### 使い方
+cloneする
 ```
 $ git clone https://github.com/cdlscdlscdls/tsx.git
 ```
 
+cloneしたディレクトリに移動する
 ```
 $ cd tsx
 ```
+
+コンテナに入る
+```
+$ docker-compose run --rm web bash
+```
+
+モジュールをインストールする
+```
+# npm install
+```
+
+コンテナを抜ける
+```
+# exit
+```
+
+ビルドしてサーバを立ち上げる
 ```
 $ docker-compose up --build web
 ```
+
+下記リンクにて表示確認
 => http://localhost:3000
 
 ### 参考記事
