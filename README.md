@@ -8,6 +8,7 @@
 - node-ts
 - nodemon
 - Docker
+- routing-controller
 
 ### 使い方
 cloneする
@@ -48,3 +49,6 @@ $ docker-compose up --build web
 
 [TypeScript チュートリアル](https://qiita.com/EBIHARA_kenji/items/31b7c1c62426bdabd263)
 
+[TypeScriptでExpress.jsのコントローラー部分をクラスベースで書く](https://qiita.com/techneconn/items/331aa21654bb8b20a34d)
+
+[github.com/typestack/routing-controllers/README.md](https://github.com/typestack/routing-controllers)
